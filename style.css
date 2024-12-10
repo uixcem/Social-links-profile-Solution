@@ -1,5 +1,6 @@
 @font-face {
-  font-family: "Inter", sans-serif;
+  --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif; /*font fallback*/
   src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 
@@ -102,4 +103,10 @@ section.card__links a {
 
 section.card__links a:hover {
   background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 320px) {
+  main.card {
+    padding: 1.5rem;
+  }
 }
