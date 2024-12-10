@@ -7,8 +7,8 @@
 :root {
   --bg-color: #111;
   --text-color: #fff;
-  --card-color: #333;
-  --button-color: #474646;
+  --card-color: #1f1f1f;
+  --button-color: #333;
   --secondary-color: #c6db74;
   --card-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   --card-hover: 0 0 20px rgba(0, 0, 0, 0.2);
